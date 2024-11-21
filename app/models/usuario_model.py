@@ -6,6 +6,7 @@ from config.database import db
 Base = declarative_base()
 
 class Usuario(Base):
+    # Definindo características da tabela no banco de dados.
     tablename = "usuarios"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
